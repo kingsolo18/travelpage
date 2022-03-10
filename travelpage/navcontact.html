@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>navpage</title>
+<link href="mystylesCopy.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="container">
+  <header>&nbsp;</header>
+  <nav>
+    <ul>
+		  <li><a href="aboutpage.html">About</a></li>
+		<li><a href="aboutpage.html">Blog</a></li>
+		  <li><a href="navcontact.html">Contact</a></li>
+	  </ul>
+  </nav>
+  <aside><h3>I'm a student, a male, a web developer in the making, and a future pilot</h3>
+	<h3>By Elijah Solomon</h3>
+	</aside>
+  <main>
+    <h1>Contact me</h1>
+<form>
+			<p>Your Name:<input name="user_name" type="text" id="user_name" value="first and last name" size="50"></p>
+			<p>Your email<input name="user_email" type="email" id="user_email" size="50"></p>
+	  <p>Leave a Message<br><textarea name="user_comment" cols="65" rows="10" id="user_comment"></textarea></p>
+		<p>How'd you hear about this blog?<br>
+			  <label>
+			    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+			    search engine</label>
+			  <br>
+			  <label>
+			    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+			    social media</label>
+			  <br>
+			  <label>
+			    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2">
+			    friend</label>
+			  <br>
+			  <label>
+			    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3">
+			    business card</label>
+			  <br>
+		</p>
+	  <input type="submit" class="submit_btn" formaction="comment-box.php" formmethod="POST" value="send me a message">
+	  </form>
+  </main>
+  <footer>&nbsp;</footer>
+</div>
+</body>
+</html>

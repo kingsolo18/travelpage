@@ -1,0 +1,124 @@
+@charset "UTF-8";
+ body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    background-image: url(flag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#container {
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+Header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(newheaderman.png);
+}
+main {
+    width: 598px;
+    height: 1800px;
+    background: white;
+    float: left;
+    font-size: medium;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.floatleft {
+	Float: left;
+}
+nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin-right: 90px;
+	font-family: itc-flora,sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+article {
+    margin-bottom: 0px;
+}
+
+
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: #001F7E;
+    float: none;
+    clear: both;
+}
+aside {
+    width: 150px;
+    height: 1200px;
+    background-color: #7C7C7C;
+    float: left;
+}
+h1 {
+    color: #6BE7FF;
+font-family: itc-flora,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+p{
+    font-family: itc-flora,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+	
+}
+
+h3{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav ul {
+    margin: auto;
+    width: 900px;
+}
+
+nav a:link {
+    color: #6BE7FF;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #370D71;
+}
+nav a:hover {
+    text-decoration: none;
+	color: #ffffff;
+	background-color: #6BE7FF;
+	padding: 10px;
+	border-radious: 20px;
+}
+.submit_btn {
+    width: 200px;
+    border-radius: 10;
+    background-color: #6BE7FF;
+}
+nav a:active {
+    text-decoration: none;
+}
